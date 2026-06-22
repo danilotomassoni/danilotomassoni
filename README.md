@@ -5,9 +5,39 @@
 
 **_`Java | Spring boot | SQL | NoSQL  | Docker | APIs Rest | MVC`_**
 
+
+[![My Skills](https://skillicons.dev/icons?i=java,python,js,flutter,spring,postgres,mysql,docker)](https://skillicons.dev)
+
+
  <h5>
-    Meu nome é  Danilo Augusto Tomassoni, tenho 28 anos e sou natural de Santa Rita do Sapucaí - MG.
+    Meu nome é  Danilo Augusto Tomassoni, sou natural de Santa Rita do Sapucaí - MG.
  </h5>
 <p align="start">
     Estudante de Análise e Desenvolvimento de Sistemas na UNINTER, busco minha primeira oportunidade no mercado de tecnologia como Desenvolvedor Júnior ou Estagiário. Objetivo aplicar os conhecimentos teóricos adquiridos desde 2022 em lógica de programação e arquitetura de sistemas, contribuindo para o crescimento da equipe enquanto desenvolvo minhas habilidades práticas.
 </p>
+
+<hr>
+
+<div align=center>
+  <img src="https://streak-stats.demolab.com?user=danilotomassoni&theme=dark&locale=pt_BR&date_format=j%20M%5B%20Y%5D"/>
+</div>
+
+<hr>
+
+<div align=center>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=danilotomassoni&layout=pie&theme=dark"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=mrhx01&theme=radical"/>
+</div>
+
+<hr>
+
+
+<div align=center>
+
+   <img src="https://github-readme-stats.vercel.app/api?username=danilotomassoni&show&theme=dark&icons=true" />
+   <hr>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=danilotomassoni&theme=merko&bg_color=0d1117&color=00d4ff&line=7c3aed&point=ffffff&area=true&hide_border=false"/>
+</div>
+
+<hr>
+

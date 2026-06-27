@@ -1,12 +1,12 @@
 
 <h1>👨‍💻 Danilo Tomassoni </h1>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&size=24&pause=1000&color=0034F7&width=435&lines=Backend+Developer)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&size=24&pause=1000&color=0034F7&width=435&lines=Developer)](https://git.io/typing-svg)
 
 **_`Java | Spring boot | SQL | NoSQL  | Docker | APIs Rest | MVC`_**
 
 
-[![My Skills](https://skillicons.dev/icons?i=java,python,js,flutter,spring,postgres,mysql,docker)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=java,python,js,flutter,spring,postgres,mysql,docker,rabbitmq)](https://skillicons.dev)
 
 
  <h5>

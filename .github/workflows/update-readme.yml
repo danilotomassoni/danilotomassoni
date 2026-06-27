@@ -1,0 +1,31 @@
+name: 📊 Atualizar Estatísticas README
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Executa diariamente à meia-noite
+  workflow_dispatch:  # Permite executar manualmente
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: 📥 Clonar repositório
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: 🔄 Adicionar timestamp para atualizar cache
+        run: |
+          TIMESTAMP=$(date +%s)
+          sed -i "s/\(demolab\.com[^\"]*\)/\1\&cache=$TIMESTAMP/g" README.md
+          sed -i "s/\(vercel\.app[^\"]*\)/\1\?cache=$TIMESTAMP/g" README.md
+      
+      - name: 💾 Fazer commit e push
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: '🔄 Atualizar estatísticas do README'
+          commit_user_name: 'github-actions[bot]'
+          commit_user_email: 'github-actions[bot]@users.noreply.github.com'
+          commit_options: '--no-verify'
+          file_pattern: 'README.md'

@@ -19,13 +19,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
       
-      - name: 🔄 Adicionar timestamp para atualizar cache
-        run: |
-          TIMESTAMP=$(date +%s)
-          sed -i "s/\(demolab\.com[^\"]*\)/\1\&cache=$TIMESTAMP/g" README.md
-          sed -i "s/\(vercel\.app[^\"]*\)/\1\?cache=$TIMESTAMP/g" README.md
-      
-      - name: 💾 Fazer commit e push
+      - name:  Fazer commit e push
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: '🔄 Atualizar estatísticas do README'

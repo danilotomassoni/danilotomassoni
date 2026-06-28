@@ -15,12 +15,12 @@ jobs:
     
     steps:
       - name: 📥 Clonar repositório
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
       
       - name:  Fazer commit e push
-        uses: stefanzweifel/git-auto-commit-action@v5
+        uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: '🔄 Atualizar estatísticas do README'
           commit_user_name: 'github-actions[bot]'

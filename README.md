@@ -31,7 +31,7 @@
 <hr>
 
 <div align=center>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=danilotomassoni&layout=pie&theme=dark"/>
+<img src="https://github-stats-extended.vercel.app/api/top-langs/?username=danilotomassoni&layout=pie&theme=dark"/>
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=mrhx01&theme=radical"/>
 </div>
 
@@ -40,7 +40,8 @@
 
 <div align=center>
 
-   <img src="https://github-readme-stats.vercel.app/api?username=danilotomassoni&show&theme=dark&icons=true" />
+   <img src="https://github-stats-extended.vercel.app/api/?username=danilotomassoni&show_icons=true&theme=dark&rank_icon=github&include_all_commits=true&custom_title=Danilo%27s+Tomassoni&disable_animations=true&number_format=long&show=prs_merged_percentage,prs_reviewed" />
+
    <hr>
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=danilotomassoni&theme=merko&bg_color=0d1117&color=00d4ff&line=7c3aed&point=ffffff&area=true&hide_border=false"/>
 </div>
